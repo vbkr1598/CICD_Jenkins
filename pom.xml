@@ -6,7 +6,7 @@
 
     <groupId>com.vbkr1598</groupId>
     <artifactId>cicd_jenkins</artifactId>
-    <version></version>
+    <version>1</version>
 <build>
     <finalName>cicd_jenkins</finalName>
 </build>
