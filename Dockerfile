@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8080
-ADD target/CICD.jar CICD.jar
-ENTRYPOINT ["java","-jar","/CICD.jar"]
+ADD target/cicd_jenkins.jar cicd_jenkins.jar
+ENTRYPOINT ["java","-jar","/cicd_jenkins.jar"]
